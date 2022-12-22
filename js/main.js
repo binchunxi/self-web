@@ -31,7 +31,7 @@ function  buildPath(resourceType,resourceId){
   
   // 必须确保json-server运行在下列端口
   // json-server --watch --port 8081 data/posts.json
-  let backend = 'http://binchunxi.github.io/self-web/data'
+  let backend = 'https://binchunxi.github.io/self-web/data'
   // 字符串插值
   return resourceId ? `${backend}/${resourceType}/${resourceType}-${resourceId}.json`  : `${backend}/${resourceType}/${resourceType}.json`  
 }
