@@ -1,0 +1,14 @@
+{
+    "id": 14,
+    "name":"篡改卷宗",
+    "description":"将你手牌的复制洗入你的牌库，其法力值消耗为（1）点。然后弃掉你的手牌。",
+    "background":"逾期的案卷需要翻新。",
+    "cost":3,
+    "rarity":"史诗",
+    "profession":"术师",
+    "cardtype":"法术",
+    "spelltype":"法术",
+    "pack":"纳斯利亚堡的悬案",
+    "type":2,
+    "src":"./image/Core-Cards/hearthstone_14.png"
+  }

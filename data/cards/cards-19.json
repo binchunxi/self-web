@@ -1,0 +1,15 @@
+{
+    "id": 19,
+    "name":"恐龙大师布莱恩",
+    "description":"战吼：如果你的牌库里没有相同的牌，则召唤暴龙王克鲁什。",
+    "background":"布莱恩的恐龙训练计划进展顺利——他现在已经学会坐下，起立，还有打滚啦！",
+    "cost":7,
+    "attack":2,
+    "hp":4,
+    "rarity":"传说",
+    "profession":"猎人",
+    "cardtype":"随从",
+    "pack":"奥丹姆奇兵",
+    "type":1,
+    "src":"./image/Core-Cards/hearthstone_19.png"
+}

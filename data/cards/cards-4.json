@@ -1,0 +1,15 @@
+{
+    "id": 4,
+    "name":"布莱恩·铜须",
+    "description":"你的战吼会触发两次。",
+    "background":"自从铁炉堡的国王麦格尼华丽登场后，布莱恩也想像哥哥那样出一套英雄皮肤。",
+    "cost":3,
+    "attack":2,
+    "hp":4,
+    "rarity":"传说",
+    "profession":"中立",
+    "cardtype":"随从",
+    "pack":"探险者协会",
+    "type":1,
+    "src":"./image/Core-Cards/hearthstone_4.png"
+}

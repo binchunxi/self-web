@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>内容添加</title>
+		<link rel="shortcut icon" href="./image/icon.png">
+		<style type="text/css">
+			fieldset {
+				margin-bottom:10px;
+			}
+		</style>
+	</head>
+
+	<body>
+	<form name="formTest" action="save.php" method="post" 
+	onsubmit="alert('我被送到服务端去啦！')" enctype="multipart/form-data" >
+	<fieldset>
+		<legend>选择添加类型</legend>
+		<input id="list" onclick="DeckCheck()" type="radio" name="type" value="套牌">套牌
+		<input id="list" onclick="CardCheck()" type="radio" name="type" value="卡牌">单张卡牌
+	</fieldset>
+
+	<div id="Deck" style="display:none">
+		<fieldset>
+			<legend>套牌职业</legend>
+			<select name="职业">
+		        <option selected="true">恶魔猎手</option>
+		        <option>猎人</option>
+                <option>术士</option>
+                <option>牧师</option>
+                <option>圣骑士</option>
+                <option>战士</option>
+                <option>德鲁伊</option>
+                <option>萨满祭司</option>
+                <option>潜行者</option>
+		        <option>法师</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>套牌名称</legend>
+				<input type="text" name="套牌名称"
+				placeholder="请输入套牌名称" maxlength="9" size="10"/>
+		</fieldset>
+
+		<fieldset>
+			<legend>套牌代码</legend>
+				<input type="text" name="套牌代码"
+				placeholder="请输入套牌代码" size="50"/>
+		</fieldset>
+
+		<fieldset>
+			<legend>打法思路</legend>
+			<textarea name="打法思路" cols="50" rows="10" placeholder="请输入打法思路"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>套牌图片</legend>
+				<input type="file" name="套牌图片">
+		</fieldset>
+	</div>
+
+	<div id="Card" style="display:none">
+		<fieldset>
+			<legend>卡牌名称</legend>
+				<input type="text" name="卡牌名称"
+				placeholder="请输入卡牌名称" size="20"/>
+		</fieldset>
+
+		<fieldset>
+			<legend>卡牌描述</legend>
+			<textarea name="卡牌描述" cols="30" rows="3" placeholder="请输入卡牌描述"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>卡牌背景</legend>
+			<textarea name="卡牌背景" cols="30" rows="3" placeholder="请输入卡牌背景"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>稀有度</legend>
+				<input id="rarity" type="radio" name="rarity" value="基础">基础
+				<input id="rarity" type="radio" name="rarity" value="普通">普通
+				<input id="rarity" type="radio" name="rarity" value="稀有">稀有
+				<input id="rarity" type="radio" name="rarity" value="史诗">史诗
+				<input id="rarity" type="radio" name="rarity" value="传说">传说
+		</fieldset>
+
+		<fieldset>
+			<legend>卡牌职业</legend>
+			<select name="卡牌职业">
+				<option selected="true">恶魔猎手</option>
+				<option>猎人</option>
+				<option>术士</option>
+				<option>牧师</option>
+				<option>圣骑士</option>
+				<option>战士</option>
+				<option>德鲁伊</option>
+				<option>萨满祭司</option>
+				<option>潜行者</option>
+				<option>法师</option>
+				<option>中立</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>拓展包</legend>
+			<select name="拓展包">
+				<option selected="true">巫妖王的进军</option>
+				<option>纳斯利亚堡的悬案</option>
+				<option>探寻沉没之城</option>
+				<option>奥特兰克的决裂</option>
+				<option>暴风城下的集结</option>
+				<option>贫瘠之地的试炼</option>
+				<option>核心</option>
+				<option>疯狂的暗月马戏团</option>
+				<option>通灵学院</option>
+				<option>外域的灰烬</option>
+				<option>恶魔猎手新兵</option>
+				<option>迦拉克隆的觉醒</option>
+				<option>巨龙降临</option>
+				<option>奥丹姆奇兵</option>
+				<option>暗影崛起</option>
+				<option>拉斯塔哈的大乱斗</option>
+				<option>砰砰计划</option>
+				<option>女巫森林</option>
+				<option>狗头人与地下世界</option>
+				<option>冰封王座的骑士</option>
+				<option>勇闯安戈洛</option>
+				<option>龙争虎斗加基森</option>
+				<option>卡拉赞之夜</option>
+				<option>上古之神的低语</option>
+				<option>探险者协会</option>
+				<option>冠军的试炼</option>
+				<option>黑石山的火焰</option>
+				<option>地精大战侏儒</option>
+				<option>纳克萨玛斯的诅咒</option>
+				<option>基础</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>卡牌图片</legend>
+				<input type="file" name="卡牌图片">
+		</fieldset>
+
+		<fieldset>
+			<legend>法力值消耗</legend>
+				<input type="text" name="法力值消耗"
+				placeholder="请输入法力值消耗" maxlength="3" size="15"/>
+		</fieldset>
+
+		<fieldset>
+			<legend>卡牌类型</legend>
+				<input id="card-type" onclick="EntourageCheck()" type="radio" name="card-type" value="entourage">随从
+				<input id="card-type" onclick="SorceryCheck()" type="radio" name="card-type" value="sorcery">法术
+				<input id="card-type" onclick="FieldCheck()" type="radio" name="card-type" value="field">场地
+				<input id="card-type" onclick="WeaponCheck()" type="radio" name="card-type" value="weapon">武器
+				<input id="card-type" onclick="HeroCheck()" type="radio" name="card-type" value="hero">英雄
+		</fieldset>
+
+		<div id="Entourage" style="display:none">
+			<fieldset>
+				<legend>攻击力</legend>
+					<input type="text" name="攻击力"
+					placeholder="请输入攻击力" maxlength="3" size="15"/>
+			</fieldset>
+
+			<fieldset>
+				<legend>生命值</legend>
+					<input type="text" name="生命值"
+					placeholder="请输入生命值" maxlength="3" size="15"/>
+			</fieldset>
+		</div>
+
+		<div id="Sorcery" style="display:none">
+			<fieldset>
+				<legend>法术类型：</legend>
+					<input type="text" name="法术类型"
+					placeholder="请输入法术类型" maxlength="5" size="15"/>
+			</fieldset>
+		</div>
+
+		<div id="Field" style="display:none">
+			<fieldset>
+				<legend>使用次数</legend>
+					<input type="text" name="使用次数"
+					placeholder="请输入使用次数" maxlength="3" size="15"/>
+			</fieldset>
+		</div>
+
+		<div id="Weapon" style="display:none">
+			<fieldset>
+				<legend>攻击力</legend>
+					<input type="text" name="攻击力"
+					placeholder="请输入攻击力" maxlength="3" size="15"/>
+			</fieldset>
+
+			<fieldset>
+				<legend>生命值</legend>
+					<input type="text" name="生命值"
+					placeholder="请输入生命值" maxlength="3" size="15"/>
+			</fieldset>
+		</div>
+
+		<div id="Hero" style="display:none">
+			<fieldset>
+				<legend>护甲值</legend>
+					<input type="text" name="护甲值"
+					placeholder="请输入护甲值" maxlength="3" size="15"/>
+			</fieldset>
+		</div>
+	</div>
+
+	<input type="submit" value="提交"/>
+	<input type="reset" value="重新填写"/>
+	</form>
+	<script type="text/javascript" >
+		function DeckCheck(){
+		document.getElementById("Deck").style.display="block";
+		document.getElementById("Card").style.display="none";
+		}
+
+		function CardCheck(){
+		document.getElementById("Deck").style.display="none";  
+		document.getElementById("Card").style.display="block";
+		}
+
+		function EntourageCheck(){
+		document.getElementById("Entourage").style.display="block";  
+		document.getElementById("Sorcery").style.display="none";
+		document.getElementById("Field").style.display="none";
+		document.getElementById("Weapon").style.display="none";
+		document.getElementById("Hero").style.display="none";
+		}
+
+		function SorceryCheck(){
+		document.getElementById("Entourage").style.display="none";  
+		document.getElementById("Sorcery").style.display="block";
+		document.getElementById("Field").style.display="none";
+		document.getElementById("Weapon").style.display="none";
+		document.getElementById("Hero").style.display="none";
+		}
+
+		function FieldCheck(){
+		document.getElementById("Entourage").style.display="none";  
+		document.getElementById("Sorcery").style.display="none";
+		document.getElementById("Field").style.display="block";
+		document.getElementById("Weapon").style.display="none";
+		document.getElementById("Hero").style.display="none";
+		}
+
+		function WeaponCheck(){
+		document.getElementById("Entourage").style.display="none";  
+		document.getElementById("Sorcery").style.display="none";
+		document.getElementById("Field").style.display="none";
+		document.getElementById("Weapon").style.display="block";
+		document.getElementById("Hero").style.display="none";
+		}
+
+		function HeroCheck(){
+		document.getElementById("Entourage").style.display="none";  
+		document.getElementById("Sorcery").style.display="none";
+		document.getElementById("Field").style.display="none";
+		document.getElementById("Weapon").style.display="none";
+		document.getElementById("Hero").style.display="block";
+		}
+	</script>
+	</body></html>

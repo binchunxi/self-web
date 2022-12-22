@@ -1,0 +1,15 @@
+{
+    "id": 20,
+    "name":"卡扎库杉",
+    "description":"战吼：在本局对战中，如果你使用过4张其他龙牌，则将你的牌库变为自定义宝藏牌库。",
+    "background":"卡扎库斯聪明至极，从不会调制对自身有害的药水。这样就说得通了：龙息药水的发明者本就是条龙。",
+    "cost":8,
+    "attack":8,
+    "hp":8,
+    "rarity":"传说",
+    "profession":"中立",
+    "cardtype":"随从",
+    "pack":"奥特兰克的决裂",
+    "type":1,
+    "src":"./image/Core-Cards/hearthstone_20.png"
+}

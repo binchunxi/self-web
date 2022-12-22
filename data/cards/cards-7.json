@@ -1,0 +1,15 @@
+{
+    "id": 7,
+    "name":"海盗帕奇斯",
+    "description":"在你使用一张海盗牌后，从你的牌库中召唤该随从。",
+    "background":"船长因为帕奇斯能眼观六路，耳听八方的能力将其招揽。唯一的问题是，他走过的甲板老是黏糊糊的，清理起来特别麻烦。",
+    "cost":1,
+    "attack":1,
+    "hp":1,
+    "rarity":"传说",
+    "profession":"中立",
+    "cardtype":"随从",
+    "pack":"龙争虎斗加基森",
+    "type":1,
+    "src":"./image/Core-Cards/hearthstone_7.png"
+}

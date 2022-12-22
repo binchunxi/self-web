@@ -1,0 +1,9 @@
+{
+    "name":"弃牌术",
+    "img":"./image/Warlock/Discard.png",
+    "src":"AAEBAf0GAo+CA6fkBA7OB8QU1LMCvLYCzukC/aQDtbkD184Di9UD8pEE+dgEmJIFpZIFq5IFAA==",
+    "introduce":"留牌核心为玛克扎尔的小鬼和篡改卷宗，通过篡改卷宗进行牌库补充，利用古尔丹之手快速补充手牌，灵魂弹幕补充空场伤害，其余随从完成站场",
+    "corecardname":"篡改卷宗",
+    "corecardimg":"./image/Core-Cards/hearthstone_14.png",
+    "corecardsrc":"#/cards/card-sorcery/14"
+}

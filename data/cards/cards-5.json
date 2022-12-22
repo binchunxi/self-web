@@ -1,0 +1,15 @@
+{
+    "id": 5,
+    "name":"雷诺·杰克逊",
+    "description":"战吼：如果你的牌库里没有相同的牌，则为你的英雄恢复所有生命值。",
+    "background":"雷诺曾四次荣获由探险者协会颁发的“年度最佳服饰奖”。",
+    "cost":6,
+    "attack":4,
+    "hp":6,
+    "rarity":"传说",
+    "profession":"中立",
+    "cardtype":"随从",
+    "pack":"探险者协会",
+    "type":1,
+    "src":"./image/Core-Cards/hearthstone_5.png"
+}

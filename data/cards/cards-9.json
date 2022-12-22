@@ -1,0 +1,14 @@
+{
+    "id": 9,
+    "name":"野性之心古夫",
+    "description":"战吼：将你的法力值上限变为20。获得一个空的法力水晶。抽一张牌。",
+    "background":"爱交朋友的古夫面临着有生以来最大的挑战：在战场上交朋友。",
+    "cost":5,
+    "hp":5,
+    "rarity":"传说",
+    "profession":"德鲁伊",
+    "cardtype":"英雄",
+    "pack":"奥特兰克的决裂",
+    "type":4,
+    "src":"./image/Core-Cards/hearthstone_9.png"
+}

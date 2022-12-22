@@ -1,0 +1,14 @@
+{
+    "id": 18,
+    "name":"一决胜负",
+    "description":"任务线：在一回合中抽四张牌。奖励：使抽到的牌法力值消耗减少（1）点。",
+    "background":"终于到了最后的决战。炉石传说的最后一张牌。",
+    "cost":1,
+    "rarity":"传说",
+    "profession":"恶魔猎手",
+    "cardtype":"法术",
+    "spelltype":"任务线",
+    "pack":"暴风城下的集结",
+    "type":2,
+    "src":"./image/Core-Cards/hearthstone_18.png"
+  }

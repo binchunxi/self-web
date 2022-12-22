@@ -1,0 +1,9 @@
+{
+    "name":"奇迹贼",
+    "img":"./image/Rogue/Miracle.png",
+    "src":"AAEBAaIHCrIC+g78owPz3QO9gATtgAT13QT23QT87QTMoAUK9bsCqssD590DzvkD9p8E958Et7ME9N0EwYMFwaEFAA==",
+    "introduce":"通过各类过牌，刷牌在前中期拍下罪碑坟场、大范造出巨大身材随从，并可由通灵领主德拉卡造出巨大刀获得胜利",
+    "corecardname":"罪碑坟场",
+    "corecardimg":"./image/Core-Cards/hearthstone_10.png",
+    "corecardsrc":"#/cards/card-field/10"
+}

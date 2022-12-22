@@ -1,0 +1,9 @@
+{
+    "name":"任务法",
+    "img":"./image/Mage/Task.png",
+    "src":"AAEBAf0EBOwFleEDwfADveQEDfcN17YC67oCh70CvqQDkeED558ExqAEo+QE/uwEvO0E/5IF26EFAA==",
+    "introduce":"前期寻找衍生法术快速完成任务，开启任务后利用灰贤鹦鹉和幻觉药水完成斩杀，注意如果手上没有鹦鹉可以根据对局情况提前开启任务",
+    "corecardname":"打开时空之门",
+    "corecardimg":"./image/Core-Cards/hearthstone_2.png",
+    "corecardsrc":"#/cards/card-entourage/2"
+}

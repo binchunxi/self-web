@@ -1,0 +1,15 @@
+{
+    "id": 8,
+    "name":"弑君",
+    "description":"始终保留所有额外效果。亡语：将这把武器洗入你的牌库。",
+    "background":"杀死的每一位君王都令它黯然神伤。",
+    "cost":1,
+    "attack":1,
+    "hp":3,
+    "rarity":"传说",
+    "profession":"潜行者",
+    "cardtype":"武器",
+    "pack":"狗头人与地下世界",
+    "type":3,
+    "src":"./image/Core-Cards/hearthstone_8.png"
+}

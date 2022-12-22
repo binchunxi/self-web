@@ -1,0 +1,9 @@
+{
+    "name":"鬼灵贼",
+    "img":"./image/Rogue/Ghost.png",
+    "src":"AAEBAaIHCrSGA+XRA9/dA8PhA53wA6H0A/TdBPXdBMygBcGhBQr1uwLf4wKX5wKqywPn3QP+7gO9gAT2nwT3nwS3swQA",
+    "introduce":"前期快速过牌集齐组件，利用鲨鱼之灵、刀油、幻觉药水满足使用牌数，鬼灵匪贼完成斩杀",
+    "corecardname":"鬼灵匪贼",
+    "corecardimg":"./image/Core-Cards/hearthstone_15.png",
+    "corecardsrc":"#/cards/card-entourage/15"
+}

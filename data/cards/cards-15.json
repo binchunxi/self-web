@@ -1,0 +1,15 @@
+{
+    "id": 15,
+    "name":"鬼灵匪贼",
+    "description":"连击：造成伤害，数值等同于在本回合中你使用的其他牌的 数量。",
+    "background":"你也可以把她和赃物一起带走。",
+    "cost":6,
+    "attack":5,
+    "hp":5,
+    "rarity":"史诗",
+    "profession":"潜行者",
+    "cardtype":"随从",
+    "pack":"冰封王座的骑士",
+    "type":1,
+    "src":"./image/Core-Cards/hearthstone_15.png"
+}

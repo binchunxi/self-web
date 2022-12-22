@@ -1,0 +1,14 @@
+{
+    "id": 10,
+    "name":"罪碑坟场",
+    "description":"召唤一个1/1并具有潜行的幽灵。（在本回合中每有一张其他牌被使用，获得+1/+1！）",
+    "background":"在亡者的国度修建坟场，是不是有点多余？",
+    "cost":2,
+    "hp":2,
+    "rarity":"稀有",
+    "profession":"潜行者",
+    "cardtype":"场地",
+    "pack":"纳斯利亚堡的悬案",
+    "type":5,
+    "src":"./image/Core-Cards/hearthstone_10.png"
+}

@@ -1,0 +1,15 @@
+{
+    "id": 1,
+    "name":"豪宅管家俄里翁",
+    "description":"在一个友方奥秘被揭示后，施放一个不同的法师奥秘并获得+2/+2。",
+    "background":"宇宙的奥秘浩瀚无涯……终将在本局对战中的晚些时候揭示。",
+    "cost":4,
+    "attack":3,
+    "hp":5,
+    "rarity":"传说",
+    "profession":"法师",
+    "cardtype":"随从",
+    "pack":"纳斯利亚堡的悬案",
+    "type":1,
+    "src":"./image/Core-Cards/hearthstone_1.png"
+}

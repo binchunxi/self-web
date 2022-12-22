@@ -1,0 +1,15 @@
+{
+    "id": 11,
+    "name":"沙德沃克",
+    "description":"战吼：重复在本局对战中你所使用过的所有其他卡牌的战吼效果（目标随机而定）。",
+    "background":"吵吵机器人和闹闹机器人加起来都没它吵闹得厉害。",
+    "cost":9,
+    "attack":6,
+    "hp":6,
+    "rarity":"传说",
+    "profession":"萨满",
+    "cardtype":"随从",
+    "pack":"女巫森林",
+    "type":1,
+    "src":"./image/Core-Cards/hearthstone_11.png"
+}

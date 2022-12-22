@@ -1,0 +1,126 @@
+[
+      {
+        "id": 1,
+        "name":"豪宅管家俄里翁",
+        "img":"./image/Core-Cards/hearthstone_1.png",
+        "src":"#/cards/card-entourage/1"
+      },
+      {
+        "id": 2,
+        "name":"打开时空之门",
+        "img":"./image/Core-Cards/hearthstone_2.png",
+        "src":"#/cards/card-sorcery/2"
+      },
+      {
+        "id": 3,
+        "name":"海中向导芬利爵士",
+        "img":"./image/Core-Cards/hearthstone_3.png",
+        "src":"#/cards/card-entourage/3"
+      },
+      {
+        "id": 4,
+        "name":"布莱恩·铜须",
+        "img":"./image/Core-Cards/hearthstone_4.png",
+        "src":"#/cards/card-entourage/4"
+      },
+      {
+        "id": 5,
+        "name":"雷诺·杰克逊",
+        "img":"./image/Core-Cards/hearthstone_5.png",
+        "src":"#/cards/card-entourage/5"
+      },
+      {
+        "id": 6,
+        "name":"了不起的杰弗里斯",
+        "img":"./image/Core-Cards/hearthstone_6.png",
+        "src":"#/cards/card-entourage/6"
+      },
+      {
+        "id": 7,
+        "name":"海盗帕奇斯",
+        "img":"./image/Core-Cards/hearthstone_7.png",
+        "src":"#/cards/card-entourage/7"
+      },
+      {
+        "id": 8,
+        "name":"弑君",
+        "img":"./image/Core-Cards/hearthstone_8.png",
+        "src":"#/cards/card-weapon/8"
+      },
+      {
+        "id": 9,
+        "name":"野性之心古夫",
+        "img":"./image/Core-Cards/hearthstone_9.png",
+        "src":"#/cards/card-hero/9"
+      },
+      {
+        "id": 10,
+        "name":"罪碑坟场",
+        "img":"./image/Core-Cards/hearthstone_10.png",
+        "src":"#/cards/card-field/10"
+      },
+      {
+        "id": 11,
+        "name":"沙德沃克",
+        "img":"./image/Core-Cards/hearthstone_11.png",
+        "src":"#/cards/card-entourage/11"
+      },
+      {
+        "id": 12,
+        "name":"吉恩·格雷迈恩",
+        "img":"./image/Core-Cards/hearthstone_12.png",
+        "src":"#/cards/card-entourage/12"
+      },
+      {
+        "id": 13,
+        "name":"噬月者巴库",
+        "img":"./image/Core-Cards/hearthstone_13.png",
+        "src":"#/cards/card-entourage/13"
+      },
+      {
+        "id": 14,
+        "name":"篡改卷宗",
+        "img":"./image/Core-Cards/hearthstone_14.png",
+        "src":"#/cards/card-sorcery/14"
+      },
+      {
+        "id": 15,
+        "name":"鬼灵匪贼",
+        "img":"./image/Core-Cards/hearthstone_15.png",
+        "src":"#/cards/card-entourage/15"
+      },
+      {
+        "id": 16,
+        "name":"雪落墓地",
+        "img":"./image/Core-Cards/hearthstone_16.png",
+        "src":"#/cards/card-sorcery/16"
+      },
+      {
+        "id": 17,
+        "name":"暗影收割者安度因",
+        "img":"./image/Core-Cards/hearthstone_17.png",
+        "src":"#/cards/card-hero/17"
+      },
+      {
+        "id": 18,
+        "name":"一决胜负",
+        "img":"./image/Core-Cards/hearthstone_18.png",
+        "src":"#/cards/card-sorcery/18"
+      },
+      {
+        "id": 19,
+        "name":"恐龙大师布莱恩",
+        "img":"./image/Core-Cards/hearthstone_19.png",
+        "src":"#/cards/card-entourage/19"
+      },
+      {
+        "id": 20,
+        "name":"卡扎库杉",
+        "img":"./image/Core-Cards/hearthstone_20.png"
+      },
+      {
+        "id": 21,
+        "name":"黑锋骑士乌瑟尔",
+        "img":"./image/Core-Cards/hearthstone_21.png"
+      }
+]

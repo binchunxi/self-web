@@ -1,0 +1,14 @@
+{
+    "id": 2,
+    "name":"打开时空之门",
+    "description":"任务：施放8个你的套牌之外的法术。 奖励：时空扭曲。",
+    "background":"这个咒语看似复杂，但只要往左跳一小步，再往右跳一小步，就完成施法了。",
+    "cost":1,
+    "rarity":"传说",
+    "profession":"法师",
+    "cardtype":"法术",
+    "spelltype":"任务",
+    "pack":"勇闯安戈洛",
+    "type":2,
+    "src":"./image/Core-Cards/hearthstone_2.png"
+  }

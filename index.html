@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>炉石传说狂野模式资讯</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+  <link rel="shortcut icon" href="./image/icon.png">
+  <link rel="stylesheet" href="./css/reset.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script type="text/javascript" src="js/jquery.js"></script>    
+  <script type="text/javascript" src='js/ejs.js'></script>
+  <script type="text/javascript" src='js/director.js'></script>
+  <script type="text/javascript" src='js/localforage.js'></script>
+  <script type="text/javascript" src='js/main.js'></script>
+  <style type="text/css"></style>
+</head>
+
+<body class="greybox" style="width: 80%; height: auto; min-width: 1250px;">
+  <div id="main" >
+    <nav id='nav1' class="top" style="justify-content: flex-start;">
+      <ul>
+        <li><a id="back" href="#/readme">网站使用</a></li>
+        <li><a id="" href="./form.html">添加内容</a></li>
+      </ul>
+    </nav>
+
+    <div style="height: 5%; min-height: 35px; border: none;"></div>
+    <div id="top" class="blackbox" style="height: 8%; min-height: 60px;">
+    <div id="title" style="border: 0px;">炉石传说狂野模式资讯</div>
+  </div>
+
+  <div id="middle" style="height: 80%; min-width: 1205px;">
+      <div id="decks-list" class="whitebox" style="width: 20%;min-height: 26.4px;min-width: 240px;"></div>
+      <div id="detail" class="whitebox" style="height: 98%;width: 78%;min-height: 590px; min-width:938px;;">
+        <div class="tabs">
+          <div class="tab-pane">
+            <input type="radio" name="tab" id="tab01" checked />
+            <label id="card" class="tab-item" for="tab01">核心卡牌推荐</label>
+          </div>
+          <div class="tab-pane">
+            <input type="radio" name="tab" id="tab02" />
+            <label id="guide" class="tab-item" for="tab02">入坑指南</label>
+        </div>
+        <div class="tab-pane">
+            <input type="radio" name="tab" id="tab03" />
+            <label id="information" class="tab-item" for="tab03">补丁资讯</label>
+        </div>
+            <div id="cards" class="tab-content"></div>
+            <div id="guides" class="tab-content" style="display: none"></div>
+            <div id="informations" class="tab-content" style="display: none"></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+  </div>
+</div>
+</body>
+    <script>
+        $.get("./tpl/list.tpl", function(result){      
+            $("#decks-list").html(result);
+        });
+
+        $.get("./data/cards/cards.json", function(card) {
+          var data = card;
+            $.get("./tpl/card-list.tpl", function(tpl){  
+              result = ejs.compile(tpl)(  {data:data}  )    
+              $("#cards").html(result);
+          });
+        });
+
+        $.get("./data/infs/infs.json", function(card) {
+          var data = card;
+            $.get("./tpl/inf-list.tpl", function(tpl){  
+              result = ejs.compile(tpl)(  {data:data}  )    
+              $("#guides").html(result);
+          });
+        });
+
+        $.get("./data/news/news.json", function(card) {
+          var data = card;
+            $.get("./tpl/new-list.tpl", function(tpl){  
+              result = ejs.compile(tpl)(  {data:data}  )    
+              $("#informations").html(result);
+          });
+        });
+
+        $(function(){
+            $("#card").click(
+                function(){
+                    $("#cards").show();
+                    $("#guides").hide();
+                    $("#informations").hide();
+                })
+        })
+        $(function(){
+            $("#information").click(
+                function(){
+                    $("#informations").show();
+                    $("#guides").hide();
+                    $("#cards").hide();
+                })
+        })
+        $(function(){
+            $("#guide").click(
+                function(){
+                    $("#guides").show();
+                    $("#cards").hide();
+                    $("#informations").hide();
+                })
+        })
+
+        function copyMeOnClickBoard(){
+          const copyText = document.querySelector('#copy')
+          copyText.select();
+          copyText.setSelectionRange(0, copyText.value.length);
+          document.execCommand('copy');
+          alert("已完成复制");
+        }
+
+        var routes = {      
+            '/cards/:type/:id': cards_show,
+            '/infs/:id': infs_show,
+            '/news/:id': news_show,
+            '/decks/:name':decks_show,
+            '/readme':readme_show
+            }; 
+
+        var router = Router(routes).configure({strict:false});
+        router.init();
+
+        function readme_show(){
+          renderTemplate('#main','readme','readme')   
+        }
+
+        function cards_show(type,id){      
+          // console.log(id)
+          // console.log(type)
+          renderTemplate('#main',type,'cards',id)  
+        }
+
+        function infs_show(id){      
+          // console.log(id)
+          renderTemplate('#main','information','infs',id)  
+        }
+
+        function news_show(id){      
+          // console.log(id)
+          renderTemplate('#main','new','news',id)  
+        }
+
+        function decks_show(name){      
+          // console.log(name)
+          renderTemplate('#main','deck','decks',name)  
+        }
+    </script>
+</html>

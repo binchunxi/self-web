@@ -1,0 +1,15 @@
+{
+    "id": 12,
+    "name":"吉恩·格雷迈恩",
+    "description":"对战开始时：如果你的套牌中只有法力值消耗为偶数的牌，你的初始英雄技能的法力值消耗变为（1）点。",
+    "background":"“希尔瓦娜斯杀了偶的儿子，偶一定要为他报仇！”",
+    "cost":6,
+    "attack":6,
+    "hp":5,
+    "rarity":"传说",
+    "profession":"中立",
+    "cardtype":"随从",
+    "pack":"女巫森林",
+    "type":1,
+    "src":"./image/Core-Cards/hearthstone_12.png"
+}

@@ -1,0 +1,14 @@
+{
+    "id": 17,
+    "name":"暗影收割者安度因",
+    "description":"战吼：消灭所有攻击力大于或等于5的随从。",
+    "background":"“有一件事维伦从没教过我，我现在来告诉你：站在圣光面前的人……必将投下暗影。”",
+    "cost":8,
+    "hp":5,
+    "rarity":"传说",
+    "profession":"牧师",
+    "cardtype":"英雄",
+    "pack":"冰封王座的骑士",
+    "type":4,
+    "src":"./image/Core-Cards/hearthstone_17.png"
+}

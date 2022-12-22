@@ -1,0 +1,14 @@
+{
+    "id": 21,
+    "name":"黑锋骑士乌瑟尔",
+    "description":"战吼： 装备一把5/3并具有吸血的武器。",
+    "background":"“过来，忏悔！曾经的我只是圣光的仆人。但现在，我将独自审判你。”",
+    "cost":9,
+    "hp":5,
+    "rarity":"传说",
+    "profession":"圣骑士",
+    "cardtype":"英雄",
+    "pack":"冰封王座的骑士",
+    "type":4,
+    "src":"./image/Core-Cards/hearthstone_21.png"
+}

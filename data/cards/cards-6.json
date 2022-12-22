@@ -1,0 +1,15 @@
+{
+    "id": 6,
+    "name":"了不起的杰弗里斯",
+    "description":"战吼：如果你的牌库里没有相同的牌，则可以许愿获得一张完美的卡牌。",
+    "background":"“这就是完美的卡牌，只是你不会用而已。”",
+    "cost":2,
+    "attack":3,
+    "hp":2,
+    "rarity":"传说",
+    "profession":"中立",
+    "cardtype":"随从",
+    "pack":"奥丹姆奇兵",
+    "type":1,
+    "src":"./image/Core-Cards/hearthstone_6.png"
+  }

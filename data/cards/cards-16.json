@@ -1,0 +1,14 @@
+{
+    "id": 16,
+    "name":"雪落墓地",
+    "description":"你的亡语会触发两次。持续3回合。",
+    "background":"生来迅捷，逝去二度。",
+    "cost":3,
+    "rarity":"稀有",
+    "profession":"潜行者",
+    "cardtype":"法术",
+    "spelltype":"法术",
+    "pack":"奥特兰克的决裂",
+    "type":2,
+    "src":"./image/Core-Cards/hearthstone_16.png"
+  }

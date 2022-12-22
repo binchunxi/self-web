@@ -1,0 +1,15 @@
+{
+    "id": 3,
+    "name":"海中向导芬利爵士",
+    "description":"战吼：将你的手牌和牌库底的牌交换。",
+    "background":"“别担心，朋友们，我这有地图。地图上都写着呢，一直向下！”",
+    "cost":1,
+    "attack":1,
+    "hp":3,
+    "rarity":"传说",
+    "profession":"中立",
+    "cardtype":"随从",
+    "pack":"探寻沉没之城",
+    "type":1,
+    "src":"./image/Core-Cards/hearthstone_3.png"
+  }
